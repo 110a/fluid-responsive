@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	font-family: "ALK Tall Nusxuri", sans-serif;
+}
+img {
+	width: 100%;
+}
+
+/* main style */
+.container {
+	width: 90%;
+	/*background-color: orange;*/
+	margin-right: auto;
+	margin-left: auto;
+}
+.box {
+	margin-bottom: 60px;
+}
+.heading {
+	font-family: "ALK Life", sans-serif;
+}
+.img {
+	width: 30%;
+	vertical-align: middle;
+	display: inline-block;
+}
+img {
+	/*width: 30%;*/
+	/*vertical-align: middle;*/
+}
+.text {
+	width: 65%;
+	display: inline-block;
+	margin-left: 5%;
+	vertical-align: middle;
+}
+.text-second {
+	width: 65%;
+	display: inline-block;
+	margin-right: 5%;
+	vertical-align: middle;
+}
+span {
+	color: red;
+}
+.color {
+	color: red;
+}
+.bg-gray {
+	background: grey;
+}
+@media only screen and (max-width: 600px) {
+	.img {
+		width: 100%;
+	}
+	.text {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.text-second {
+		width: 100%;
+		margin-right: 0%;
+	}
+}
